@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&family=Praise&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Nav-menu*/
+.navigation {
+    margin: 20px 80px;
+}
+
+.icon img {
+    width: 80px;
+}
+
+.navigation ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+    justify-content: center;
+}
+
+.navigation li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #3F3F3F;
+}
+
+#active {
+    color: #F72D57;
+}
+
+.navigation i {
+    font-size: 20px;
+}
+
+#sign-up-btn {
+    background: #F72D57;
+    border-radius: 5px;
+    padding: 3px 25px;
+}
+#sign-up-btn a {
+    color: #fff;
+    font-size: 12px;
+}
+
+
+/*Headline section*/
+.headline {
+    display: flex;
+    justify-content: center;
+}
+.headline div {
+    margin-left: 100px;
+}
+
+.title h1 {
+    color: #3F3F3F;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.title {
+    width: 400px;
+    margin-top: 130px;
+}
+
+.title h1 span {
+    color: #F72D57;
+}
+
+.title p {
+    color: #3F3F3F;
+    font-size: 10px;
+}
+
+.main-meal-img img {
+    width: 500px;
+}
+
+
+/*Our Popular Categories*/
+.categories h2 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.categories h2 span {
+    color: #F72D57;
+}
+
+.fast-food {
+    width: 280px;
+}
+
+.food-icons {
+    height: 80px;
+    background-color: #F72D57;
+    padding: 10px 0 0 90px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    box-shadow: 3px 2px 9px 2px rgba(43, 37, 37, .4);
+}
+
+.fast-food .food-icons img {
+    width: 40px;
+    margin-top: 10px;
+}
+
+.fast-food .food-icons span {
+    color: #fff;
+    font-weight: 300;
+    vertical-align: 8px;
+    letter-spacing: 1px;
+    padding-left: 10px;
+}
+
+.food-pic {
+    height: 270px;
+    box-shadow: 3px 2px 9px 2px rgba(43, 37, 37, .4);
+    border-radius: 3px;
+}
+
+.food-pic img {
+    width: 200px;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+.fast-food h3 {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.fast-food h4 {
+    font-size: 13px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.fast-food p {
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.fast-food button {
+    background-color: #F72D57;
+    padding: 5px 16px;
+    border: none;
+    border-radius: 3px;
+    margin: 20px 0 0 90px;
+}
+.fast-food button a {
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.menu {
+    display: inline-block;
+    transform: translate(35%, 10%);
+    margin-left: 10px;
+}
+
+.menu .meals {
+    background-color: #fff;
+}
+.menu .meals span {
+    color: #F72D57;
+}
+
+.menu #pic2 {
+    width: 210px;
+}
+.menu #pic3 {
+    width: 190px;
+}
+.menu #pic4 {
+    width: 168px;
+}
+
+.menu #icon-2, #icon-4 {
+    width: 47px;
+}
+.menu #icon-4 {
+    width: 50px;
+    margin-top: 15px;
+}
+
+/*slide-show*/
+.slide-show {
+    height: 250px;
+    margin: 0 auto;
+}
+
+.slide-show ul {
+    transform: translate(45%, 80px);
+}
+
+.slide-show li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.slide-show li i {
+    width: 15px;
+    color: #F72D57;
+}
+
+.slide-show li img {
+    width: 15px;
+}
+
+/*ads*/
+.ads {
+    width: 100%;
+    height: 300px;
+    background-color: #F72D57;
+}
+
+.burgerking img {
+    display: inline-block;
+}
+
+.burgerking img {
+    width: 450px;
+    transform: translate(30%, -45px);
+    z-index: 1;
+}
+
+.burgerking-text {
+    float: right;
+    transform: translate(-55%, -320px);
+}
+
+.burgerking-text h2 {
+    font-size: 30px;
+    color: #ffffff;
+    width: 400px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+.burgerking-text p {
+    font-size: 12px;
+    color: #ffffff;
+    width: 430px;
+    font-weight: 200;
+}
+
+/*Food delivery*/
+.delivery {
+    height: 400px;
+    margin-top: 200px;
+}
+
+.delivery-text {
+    margin-left: 120px;
+}
+
+.delivery-text h2 {
+    font-size: 30px;
+    color: #3F3F3F;
+    width: 350px;
+    font-weight: 600;
+}
+.delivery-text h2 span {
+    color: #F72D57;
+}
+
+.delivery-text p {
+    font-size: 12px;
+    color:#3F3F3F;
+    width: 430px;
+    font-weight: 200;
+    padding: 15px 0;
+}
+
+.delivery-text button {
+    background-color: #F72D57;
+    padding: 5px 18px;
+    border: none;
+    border-radius: 3px;
+}
+.delivery-text button a {
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 200;
+    text-decoration: none;
+}
+
+.delivery-img img {
+    width: 600px;
+    float: right;
+    transform: translate(0%, -350px);
+}
+
+/*motorbike*/
+.motorbike {
+    height: 400px;
+}
+
+.motorbike li {
+    display: inline-block;
+}
+
+.motorbike-img #pink-cube {
+    width: 200px;
+    height: 130px;
+    background-color: #F72D57;
+}
+
+.motorbike-img img {
+    margin-top: 150px;
+    transform: translate(-100px, 30px);
+}
+
+.motorbike-img img {
+    width: 300px;
+}
+
+.motorbike-text {
+    float: right;
+    transform: translate(-70%, -180px);
+}
+.motorbike-text h2 {
+    font-size: 26px;
+    color: #3F3F3F;
+    width: 400px;
+    font-weight: 600;
+}
+.motorbike-text h2 span {
+    color: #F72D57;
+}
+
+.motorbike-text p {
+    font-size: 12px;
+    color:#3F3F3F;
+    width: 430px;
+    font-weight: 200;
+    padding: 15px 0;
+}
+
+.motorbike-text p span {
+    color: #F72D57;
+}
+
+.motorbike-text button {
+    background-color: #F72D57;
+    padding: 5px 18px;
+    border: none;
+    border-radius: 3px;
+}
+.motorbike-text button a {
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 200;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+/*Footer*/
+.footer {
+    width: 100%;
+    height: 80px;
+    background-color: #F72D57;
+    margin-top: 150px;
+}
+
+.footer h2 {
+    font-family: 'Praise', cursive;
+    font-size: 28px;
+    color: #fff;
+    font-weight: 400;
+    vertical-align: middle;
+    padding-top: 25px;
+    margin-left: 100px;
+}
+
+.footer div {
+    display: inline-block;
+}
+
+.footer li {
+    list-style: none;
+}
+.footer li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.footer-nav {
+    float: right;
+    padding-top: 15px;
+}
+
+footer ul {
+    padding-left: 40px;
+    transform: translateX(300px);
+}
+
